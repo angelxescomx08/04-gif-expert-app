@@ -1,6 +1,8 @@
 
 export const GifExpertApp = () => {
     return (
-        <div>GifExpertApp</div>
+        <>
+            <h1>GifExpertApp</h1>
+        </>
     )
 }

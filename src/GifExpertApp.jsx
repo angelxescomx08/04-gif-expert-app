@@ -4,8 +4,8 @@ import { AddCategory } from "./components/AddCategory";
 export const GifExpertApp = () => {
     const [categories, setCategories] = useState(['Code geass']);
 
-    const onAddCategory = (valor) =>{
-        setCategories(categories=>[...categories,valor])
+    const onAddCategory = (valor) => {
+        setCategories(categories => [valor, ...categories])
     }
 
     return (
